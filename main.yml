@@ -1,0 +1,11 @@
+---
+- name: test ping
+  hosts: localhost
+  become: no
+  tasks:
+    - name: ping localhost
+      debug:
+        msg: Hello world
+  ...
+  
+      
