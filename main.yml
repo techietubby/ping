@@ -6,6 +6,6 @@
     - name: ping localhost
       debug:
         msg: Hello world
-  ...
+...
   
       
